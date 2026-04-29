@@ -31,11 +31,11 @@ Include le seguenti funzionalità:
 ---
 
 🛠️ Tecnologie
-Amazon developer console
-Python
-boto3 1.28.78
-ask-sdk-core 1.19.0
-ask-sdk-dynamodb-persistence-adapter
+- Amazon developer console
+- Python
+  - boto3 1.28.78
+  - ask-sdk-core 1.19.0
+  - ask-sdk-dynamodb-persistence-adapter
 
 ---
 
