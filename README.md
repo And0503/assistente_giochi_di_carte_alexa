@@ -1,6 +1,6 @@
 # assistente_giochi_di_carte_alexa
 
-## 🧠 Descrizione
+## Descrizione
 **Game Guru** è una skill Alexa che funge da assistente per giochi di carte.
 
 Include le seguenti funzionalità:
