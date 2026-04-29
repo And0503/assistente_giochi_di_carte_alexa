@@ -43,17 +43,19 @@ Include le seguenti funzionalità:
 
 | File / Cartella | Descrizione |
 |----------------|-------------|
-| `lambda_function.py` | Entry point della AWS Lambda per la skill Alexa  con gestione degli intent|
-| `game_service.py` | Logica di business |
-| `storage/repository.py` | Interfaccia per database |
-| `storage/dynamo_repository.py` | Persistenza su AWS DynamoDB tramite Alexa Persistence Adapter |
-| `storage/in_memory_repository.py` | Repository per testing con session_attributes (senza DynamoDB)  |
-| `ai/ai_service.py` | Interfaccia per modello ai |
+| `ai/ai_service.py` | Interfaccia per servizi AI |
 | `ai/gemini_service.py` | Integrazione con Gemini per risposte sulle regole dei giochi |
-| `models.py` | Dataclass |
 | `errors.py` | Gestione errori custom |
+| `game_service.py` | Logica di business |
 | `helper_functions.py` | Funzioni di supporto |
+| `interactionModel.json` | Modello di interazione Alexa (intents, slot, sample utterances e dialog management) |
+| `lambda_function.py` | Entry point della AWS Lambda per la skill Alexa con gestione degli intent |
+| `models.py` | Modelli dati (dataclass) |
 | `requirements.txt` | Dipendenze Python del progetto |
+| `skill-package/skill.json` | Manifest della skill Alexa: configurazione generale, endpoint Lambda, metadata e impostazioni di pubblicazione |
+| `storage/dynamo_repository.py` | Persistenza su AWS DynamoDB tramite Alexa Persistence Adapter |
+| `storage/in_memory_repository.py` | Repository per testing con session_attributes (senza DynamoDB) |
+| `storage/repository.py` | Interfaccia per i repository di persistenza |
 
 ---
 
