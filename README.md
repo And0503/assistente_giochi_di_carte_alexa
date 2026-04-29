@@ -6,7 +6,7 @@
 Include le seguenti funzionalità:
 - Sorteggiare un gioco
 - Spiegazione delle regole
-- Risposte alle regole tramite AI
+- Risposte alle domande sulle regole tramite AI
 - Gestione partita e turni
 - Classifica giocatori
 - Fine partita con vincitore
