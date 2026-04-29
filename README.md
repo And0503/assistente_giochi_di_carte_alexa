@@ -37,13 +37,13 @@ Include le seguenti funzionalità:
 | `errors.py` | Gestione errori custom |
 | `game_service.py` | Logica di business |
 | `helper_functions.py` | Funzioni di supporto |
-| `interactionModel.json` | Modello Alexa (intents e slot) |
+| `interactionModel.json` | Modello di interazione Alexa |
 | `lambda_function.py` | Entry point AWS Lambda |
 | `models.py` | Dataclass |
 | `requirements.txt` | Dipendenze Python |
 | `storage/repository.py` | Interfaccia persistenza |
-| `storage/dynamo_repository.py` | DynamoDB persistence |
-| `storage/testing/in_memory_repository.py` | Repository test (session-based) |
+| `storage/dynamo_repository.py` | Persistenza su AWS DynamoDB |
+| `storage/testing/in_memory_repository.py` | Repository test tramite session_attributes (senza DynamoDB) |
 
 ---
 
@@ -52,9 +52,10 @@ Include le seguenti funzionalità:
 2. Creare nuova skill Alexa
 3. Impostare invocation name: *game guru*
 4. Importare interaction model
-5. Deploy su AWS Lambda
-6. Abilitare modalità test
-7. Usare su dispositivi Alexa
+5. Importare il codice
+6. Save, Deploy su AWS Lambda e Build dell'interaction model
+7. Abilitare modalità development nella sezione test
+8. Usare su dispositivi Alexa o su Amazon developer console
 
 ---
 
