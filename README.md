@@ -15,20 +15,29 @@ Include le seguenti funzionalità:
 - Storico vincitori
 ---
 ---
+
 👥 ## Autori - Progetto personale
 - Andrea Tito - https://github.com/And0503
+- 
 ---
 ---
+
 ⚙️ ## Guida tecnica
+
 ---
 ---
+
 🛠️ ### Tecnologie
 - Amazon developer console
 - Python
   - boto3 1.28.78
   - ask-sdk-core 1.19.0
   - ask-sdk-dynamodb-persistence-adapter
+  
 ---
+
+---
+
 ### 📁 Struttura del repo
 | File / Cartella | Descrizione |
 |----------------|-------------|
@@ -44,8 +53,11 @@ Include le seguenti funzionalità:
 | storage/dynamo_[repository.py](http://repository.py) | Persistenza su AWS DynamoDB tramite Alexa Persistence Adapter |
 | storage/testing/in_memory_[repository.py](http://repository.py) | Repository per testing con session_attributes (senza DynamoDB) |
 | storage/[repository.py](http://repository.py) | Interfaccia per i repository di persistenza |
+
 ---
+
 ---
+
 ### 🚀 Come eseguire il progetto
 1. Creare account amazon developer console
 2. Aprire online la amazon developer console
@@ -55,9 +67,13 @@ Include le seguenti funzionalità:
 6. Fare save, deploy e build
 7. Avviare in Test la modalità Development
 8. Usare la skill sui propri dispositivi alexa o da amazon developer console
+
 ---
+
 ---
+
 ## ⚠️ Nota che...
 - Questa skill è stata progettata per uso personale e privato.
 - Non è stata verificata per la conformità a tutti i requisiti di pubblicazione sullo store Alexa e potrebbe non rispettare completamente le linee guida ufficiali.
+
 ---
