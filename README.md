@@ -54,7 +54,7 @@ Include le seguenti funzionalità:
 | `requirements.txt` | Dipendenze Python del progetto |
 | `skill-package/skill.json` | Manifest della skill Alexa: configurazione generale, endpoint Lambda, metadata e impostazioni di pubblicazione |
 | `storage/dynamo_repository.py` | Persistenza su AWS DynamoDB tramite Alexa Persistence Adapter |
-| `storage/in_memory_repository.py` | Repository per testing con session_attributes (senza DynamoDB) |
+| `storage/testing/in_memory_repository.py` | Repository per testing con session_attributes (senza DynamoDB) |
 | `storage/repository.py` | Interfaccia per i repository di persistenza |
 
 ---
